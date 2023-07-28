@@ -1,7 +1,10 @@
-import { Carousel } from "bootstrap";
 import "./App.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 function App() {
+  const element = (
+    <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#3996f6" }} />
+  );
   return (
     <div className="App">
       <header className="App-header"></header>
@@ -57,6 +60,7 @@ function App() {
             <span class="verified-badge">
               <i class="fa-solid fa-check"></i>
             </span>
+            {element}
             <h3>Verified</h3>
             <p>
               She Codes Members and founder have found this accommodation
