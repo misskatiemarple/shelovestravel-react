@@ -1,9 +1,19 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+
 function App() {
-  const element = (
+  const CheckCircle = (
     <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#3996f6" }} />
+  );
+
+  const ChevreonLeft = (
+    <FontAwesomeIcon icon={faChevronLeft} className="fa-chevron" />
+  );
+  const ChevronRight = (
+    <FontAwesomeIcon icon={faChevronRight} className="fa-chevron" />
   );
   return (
     <div className="App">
@@ -49,18 +59,62 @@ function App() {
       </nav>
       <div className="hero">SHE LOVES TRAVEL</div> <h2>Autumn Itinerary</h2>
       <img src="#"></img>
-      <div className="slides">
-        sliding carasol of cards for the events: date, time, highlight, cost,
-        website
+      <div className="wrapper">
+        {ChevreonLeft}
+        <ul class="carousel">
+          <li className="card">
+            <div class="img">
+              <img src="#" alter="blah" />
+              <h2>Accomodation name</h2>
+              <span>location</span>
+            </div>
+          </li>
+          <li className="card">
+            <div class="img">
+              <img src="/images/matala1.jpg" alt="blah" />
+              <h2>Accomodation name</h2>
+              <span>location</span>
+            </div>
+          </li>
+          <li className="card">
+            <div class="img">
+              <img src="/images/matala2.jpg" alt="blah" />
+              <h2>Accomodation name</h2>
+              <span>location</span>
+            </div>
+          </li>
+          <li className="card">
+            <div class="img">
+              <img src="/images/matala3.jpg" alt="blah" />
+              <h2>Accomodation name</h2>
+              <span>location</span>
+            </div>
+          </li>
+          <li className="card">
+            <div class="img">
+              <img src="/images/matala4.jpg" alt="blah" />
+              <h2>Accomodation name</h2>
+              <span>location</span>
+            </div>
+          </li>
+          <li className="card">
+            <div class="img">
+              <img src="/images/matala5.jpg" alt="blah" />
+              <h2>Accomodation name</h2>
+              <span>location</span>
+            </div>
+          </li>
+        </ul>
+        {ChevronRight}
       </div>
-      <div class="updates">Prices hikes for JR pass New beach open</div>
-      <div class="Acomodation suggestion">
+      <div className="updates">Prices hikes for JR pass New beach open</div>
+      <div className="Acomodation suggestion">
         <div className="verified-section">
-          <div class="box box-border border-radius-10 max-width-500">
-            <span class="verified-badge">
-              <i class="fa-solid fa-check"></i>
+          <div className="box box-border border-radius-10 max-width-500">
+            <span className="verified-badge">
+              <i className="fa-solid fa-check"></i>
             </span>
-            {element}
+            {CheckCircle}
             <h3>Verified</h3>
             <p>
               She Codes Members and founder have found this accommodation
