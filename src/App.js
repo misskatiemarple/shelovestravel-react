@@ -9,12 +9,8 @@ function App() {
     <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#3996f6" }} />
   );
 
-  const ChevreonLeft = (
-    <FontAwesomeIcon icon={faChevronLeft} className="fa-chevron" />
-  );
-  const ChevronRight = (
-    <FontAwesomeIcon icon={faChevronRight} className="fa-chevron" />
-  );
+  const ChevronLeft = <FontAwesomeIcon icon={faChevronLeft} />;
+  const ChevronRight = <FontAwesomeIcon icon={faChevronRight} />;
   return (
     <div className="App">
       <header className="App-header"></header>
@@ -58,54 +54,55 @@ function App() {
         </div>
       </nav>
       <div className="hero">SHE LOVES TRAVEL</div> <h2>Autumn Itinerary</h2>
-      <img src="#"></img>
-      <div className="wrapper">
-        {ChevreonLeft}
-        <ul class="carousel">
-          <li className="card">
-            <div class="img">
-              <img src="#" alter="blah" />
+      <div className="body">
+        <div className="wrapper">
+          <div className="icon-left">{ChevronLeft}</div>
+          <ul class="carousel">
+            <li className="card">
+              <div class="img">
+                <img src="/images/serbia.jpg" alt="blah" />{" "}
+              </div>
               <h2>Accomodation name</h2>
               <span>location</span>
-            </div>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala1.jpg" alt="blah" />
+            </li>
+            <li className="card">
+              <div class="img">
+                <img src="/images/matala1.jpg" alt="blah" />{" "}
+              </div>
               <h2>Accomodation name</h2>
               <span>location</span>
-            </div>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala2.jpg" alt="blah" />
+            </li>
+            <li className="card">
+              <div class="img">
+                <img src="/images/matala2.jpg" alt="blah" />{" "}
+              </div>
               <h2>Accomodation name</h2>
               <span>location</span>
-            </div>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala3.jpg" alt="blah" />
+            </li>
+            <li className="card">
+              <div class="img">
+                <img src="/images/matala3.jpg" alt="blah" />{" "}
+              </div>
               <h2>Accomodation name</h2>
               <span>location</span>
-            </div>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala4.jpg" alt="blah" />
+            </li>
+            <li className="card">
+              <div class="img">
+                <img src="/images/matala4.jpg" alt="blah" />{" "}
+              </div>
               <h2>Accomodation name</h2>
               <span>location</span>
-            </div>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala5.jpg" alt="blah" />
+            </li>
+            <li className="card">
+              <div class="img">
+                <img src="/images/matala5.jpg" alt="blah" />{" "}
+              </div>
               <h2>Accomodation name</h2>
               <span>location</span>
-            </div>
-          </li>
-        </ul>
-        {ChevronRight}
+            </li>
+          </ul>
+          <div className="icon-right">{ChevronRight}</div>
+        </div>
       </div>
       <div className="updates">Prices hikes for JR pass New beach open</div>
       <div className="Acomodation suggestion">
