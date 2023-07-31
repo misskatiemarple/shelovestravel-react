@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px 35px;
-  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  background: linear-gradient(to left top, #c471f5 0%, #fa71cd 100%);
 }
 
 .wrapper {
@@ -31,6 +31,7 @@
 .icon-left {
   height: 50px;
   width: 50px;
+
   background: #fff;
   text-align: center;
   line-height: 50px;
@@ -99,4 +100,10 @@
 .card span {
   color: #6a6d78;
   font-size: 1.31rem;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
 }
