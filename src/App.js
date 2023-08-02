@@ -1,6 +1,7 @@
 import "./App.css";
 import Accommodationslider from "./accommodationslider";
 import Services from "./services";
+import Itinerary from "./itinerary";
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
       <h2>Our Services</h2>
       <Services />
       <h2>Autumn Itinerary</h2>
+      <Itinerary />
       <div className="updates">Prices hikes for JR pass New beach open</div>
       <div className="Acomodation suggestion">
         <h2>Accommodation.</h2>
