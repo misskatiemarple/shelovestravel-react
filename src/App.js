@@ -38,13 +38,18 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className="hero">
-          <h1>Explore the Wonders of Japan</h1>
-          <h2>
+
+        <header>
+          <h3 class="Headerh3">.TRAVEL.</h3>
+          <h1 class="Headerh1">The Wonders of Japan</h1>
+          <h4 class="Headerh4">
             Make your dream vacation a reality with expert travel consulting
-          </h2>
-          <button className="btn btn-primary">Book a consultation</button>
-        </div>
+          </h4>
+          <button className="btn btn-primary header-button">
+            Book a consultation
+          </button>
+        </header>
+
         <h2>About us</h2>
         <p>
           She Loves Travel offers travel guidance and consulting to women who
