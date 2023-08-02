@@ -31,7 +31,7 @@ export default function Accommodationslider() {
         <ul class="carousel" id="slider">
           <li className="card">
             <div class="img">
-              <img src="/images/serbia.jpg" alt="blah" />{" "}
+              <img src="#" alt="Citadines Hotel" />{" "}
             </div>
             <h2>Citadines Hotel</h2>
             <span>Shinjuku, Tokyo</span>
@@ -42,9 +42,9 @@ export default function Accommodationslider() {
           </li>
           <li className="card">
             <div class="img">
-              <img src="/images/matala1.jpg" alt="blah" />{" "}
+              <img src="#" alt="Granvia Hotel Wakayama" />{" "}
             </div>
-            <h2>{CheckCircle} Grand Hotel Wakayama</h2>
+            <h2>{CheckCircle} Granvia Hotel Wakayama</h2>
             <span>Wakayama</span>
             <ul className="review">
               <li className="review">😁 Next to station</li>
@@ -55,7 +55,7 @@ export default function Accommodationslider() {
           </li>
           <li className="card">
             <div class="img">
-              <img src="/images/matala1.jpg" alt="blah" />{" "}
+              <img src="#" alt="The Calendar Hotel" />{" "}
             </div>
             <h2>{CheckCircle} The Calendar</h2>
             <span>Otsu, Shiga</span>

@@ -1,5 +1,5 @@
 .page-container {
-  width: 980px;
+  width: 1200px;
   margin: 0 auto;
 }
 header {
@@ -47,4 +47,18 @@ header {
   border-radius: 8px;
   display: inline-block;
   margin-top: 32px;
+}
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }

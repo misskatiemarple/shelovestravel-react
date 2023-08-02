@@ -6,50 +6,56 @@ import Itinerary from "./itinerary";
 function App() {
   return (
     <div className="App">
-      <div className="page-container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              She Loves Travel
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Accomodation
-                </a>
-                <a class="nav-link" href="#">
-                  Features
-                </a>
-                <a class="nav-link" href="#">
-                  Updates
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-
-        <header>
-          <h3 class="Headerh3">.TRAVEL.</h3>
-          <h1 class="Headerh1">The Wonders of Japan</h1>
-          <h4 class="Headerh4">
-            Make your dream vacation a reality with expert travel consulting
-          </h4>
-          <button className="btn btn-primary header-button">
-            Book a consultation
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            She Loves Travel
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
-        </header>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Information
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gatherings">
+                  Gatherings
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#AboutUs">
+                  About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+      <header className="mb-4">
+        <h3 class="Headerh3">.TRAVEL.</h3>
+        <h1 class="Headerh1">The Wonders of Japan</h1>
+        <h4 class="Headerh4">
+          Make your dream vacation a reality with <br />
+          expert travel consulting
+        </h4>
+        <button className="btn btn-primary header-button">
+          Book a consultation
+        </button>
+      </header>
+      <div className="page-container">
         <h2>About us</h2>
         <p>
           She Loves Travel offers travel guidance and consulting to women who
