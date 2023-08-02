@@ -2,11 +2,15 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import "./accommodationslider.css";
 
 export default function Accommodationslider() {
   const ChevronLeft = <FontAwesomeIcon icon={faChevronLeft} />;
   const ChevronRight = <FontAwesomeIcon icon={faChevronRight} />;
+  const CheckCircle = (
+    <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#3996f6" }} />
+  );
 
   const slideLeft = () => {
     var slider = document.getElementById("slider");
@@ -29,43 +33,37 @@ export default function Accommodationslider() {
             <div class="img">
               <img src="/images/serbia.jpg" alt="blah" />{" "}
             </div>
-            <h2>Accomodation name</h2>
-            <span>location</span>
+            <h2>Citadines Hotel</h2>
+            <span>Shinjuku, Tokyo</span>
+            <ul className="review">
+              <li className="review">😁 Female night staff</li>
+              <li className="review">👎Location </li>
+            </ul>
           </li>
           <li className="card">
             <div class="img">
               <img src="/images/matala1.jpg" alt="blah" />{" "}
             </div>
-            <h2>Accomodation name</h2>
-            <span>location</span>
+            <h2>{CheckCircle} Grand Hotel Wakayama</h2>
+            <span>Wakayama</span>
+            <ul className="review">
+              <li className="review">😁 Next to station</li>
+              <li className="review">😁 Onsite restaurant</li>
+              <li className="review">😁 Bike hire</li>
+              <li className="review">👎 Distance to attractions</li>
+            </ul>
           </li>
           <li className="card">
             <div class="img">
-              <img src="/images/matala2.jpg" alt="blah" />{" "}
+              <img src="/images/matala1.jpg" alt="blah" />{" "}
             </div>
-            <h2>Accomodation name</h2>
-            <span>location</span>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala3.jpg" alt="blah" />{" "}
-            </div>
-            <h2>Accomodation name</h2>
-            <span>location</span>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala4.jpg" alt="blah" />{" "}
-            </div>
-            <h2>Accomodation name</h2>
-            <span>location</span>
-          </li>
-          <li className="card">
-            <div class="img">
-              <img src="/images/matala5.jpg" alt="blah" />{" "}
-            </div>
-            <h2>Accomodation name</h2>
-            <span>location</span>
+            <h2>{CheckCircle} The Calendar</h2>
+            <span>Otsu, Shiga</span>
+            <ul className="review">
+              <li className="review">😁 Close to Lake Biwa</li>
+              <li className="review">😁 Gender split areas</li>
+              <li className="review">👎 Shared showers?</li>
+            </ul>
           </li>
         </ul>
         <div className="icon-right" onClick={slideRight}>

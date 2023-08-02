@@ -80,11 +80,11 @@
 }
 
 .card .img {
+  /* back image design*/
   background: #8b53ff;
   width: 148px;
   height: 148px;
   border-radius: 50%;
-  /* back image design*/
 }
 .card .img img {
   width: 140px;
@@ -96,13 +96,19 @@
 
 .card h2 {
   font-weight: 500;
-  font-size: 1.56rem;
-  margin: 30 0 5px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .card span {
   color: #6a6d78;
-  font-size: 1.31rem;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.review {
+  list-style-type: none;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
