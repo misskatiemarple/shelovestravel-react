@@ -4,3 +4,7 @@
   display: block;
   margin: 0 auto;
 }
+
+.event-facebook-link {
+  color: black !important;
+}

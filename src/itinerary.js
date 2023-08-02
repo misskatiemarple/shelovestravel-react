@@ -9,6 +9,17 @@ export default function Itinerary() {
         alt="August 2023 itinerary"
         className="img-fluid itinerary-img"
       />
+      <p>
+        For the latest event news, please join the private members{" "}
+        <a
+          href="https://www.facebook.com/groups/shelovestravel"
+          target="_blank"
+          className="event-facebook-link"
+        >
+          Facebook Group
+        </a>
+      </p>
+      <p>Download the PDF version of this document here</p>
     </div>
   );
 }
