@@ -1,16 +1,14 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+
+import Accommodationslider from "./accommodationslider";
 
 function App() {
   const CheckCircle = (
     <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#3996f6" }} />
   );
 
-  const ChevronLeft = <FontAwesomeIcon icon={faChevronLeft} />;
-  const ChevronRight = <FontAwesomeIcon icon={faChevronRight} />;
   return (
     <div className="App">
       <header className="App-header"></header>
@@ -54,58 +52,9 @@ function App() {
         </div>
       </nav>
       <div className="hero">SHE LOVES TRAVEL</div> <h2>Autumn Itinerary</h2>
-      <div className="body">
-        <div className="wrapper">
-          <div className="icon-left">{ChevronLeft}</div>
-          <ul class="carousel">
-            <li className="card">
-              <div class="img">
-                <img src="/images/serbia.jpg" alt="blah" />{" "}
-              </div>
-              <h2>Accomodation name</h2>
-              <span>location</span>
-            </li>
-            <li className="card">
-              <div class="img">
-                <img src="/images/matala1.jpg" alt="blah" />{" "}
-              </div>
-              <h2>Accomodation name</h2>
-              <span>location</span>
-            </li>
-            <li className="card">
-              <div class="img">
-                <img src="/images/matala2.jpg" alt="blah" />{" "}
-              </div>
-              <h2>Accomodation name</h2>
-              <span>location</span>
-            </li>
-            <li className="card">
-              <div class="img">
-                <img src="/images/matala3.jpg" alt="blah" />{" "}
-              </div>
-              <h2>Accomodation name</h2>
-              <span>location</span>
-            </li>
-            <li className="card">
-              <div class="img">
-                <img src="/images/matala4.jpg" alt="blah" />{" "}
-              </div>
-              <h2>Accomodation name</h2>
-              <span>location</span>
-            </li>
-            <li className="card">
-              <div class="img">
-                <img src="/images/matala5.jpg" alt="blah" />{" "}
-              </div>
-              <h2>Accomodation name</h2>
-              <span>location</span>
-            </li>
-          </ul>
-          <div className="icon-right">{ChevronRight}</div>
-        </div>
-      </div>
       <div className="updates">Prices hikes for JR pass New beach open</div>
       <div className="Acomodation suggestion">
+        <Accommodationslider />
         <div className="verified-section">
           <div className="box box-border border-radius-10 max-width-500">
             <span className="verified-badge">
