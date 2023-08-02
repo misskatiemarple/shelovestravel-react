@@ -109,10 +109,14 @@
 .review {
   list-style-type: none;
   margin: 0 auto;
+  text-align: left;
 }
 
 @media screen and (max-width: 600px) {
   .wrapper .carousel {
     grid-auto-columns: 100%;
+  }
+  .review {
+    display: none;
   }
 }
