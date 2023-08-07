@@ -1,10 +1,10 @@
 import React from "react";
-import "./services";
+import "./services.css";
 
 export default function Services() {
   return (
     <div className="container services-container">
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-md">
           <h2>Itineraries</h2>
           <p>

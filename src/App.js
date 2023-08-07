@@ -1,7 +1,8 @@
 import "./App.css";
-import Accommodationslider from "./accommodationslider";
 import Services from "./services";
 import Itinerary from "./itinerary";
+import Accommodationslider from "./accommodationslider";
+import Editorials from "./editorials";
 
 function App() {
   return (
@@ -25,13 +26,17 @@ function App() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Information
+                <a class="nav-link active" aria-current="page" href="#services">
+                  Services
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Gatherings">
-                  Gatherings
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/groups/shelovestravel/"
+                  target="_blank"
+                >
+                  Women-Only Socials
                 </a>
               </li>
               <li class="nav-item">
@@ -45,9 +50,9 @@ function App() {
       </nav>
 
       <header className="mb-4">
-        <h3 class="Headerh3">.TRAVEL.</h3>
-        <h1 class="Headerh1">The Wonders of Japan</h1>
-        <h4 class="Headerh4">
+        <h3 className="headerh3">.TRAVEL.</h3>
+        <h1 className="headerh1">The Wonders of Japan</h1>
+        <h4 className="headerh4">
           Make your dream vacation a reality with <br />
           expert travel consulting
         </h4>
@@ -56,8 +61,8 @@ function App() {
         </button>
       </header>
       <div className="page-container">
-        <h2>About us</h2>
-        <p>
+        <h3 className="headerh3">ABOUT US.</h3>
+        <p className="mt-3">
           She Loves Travel offers travel guidance and consulting to women who
           are planning their trip of a life time to Japan. Japan is one of the
           safest countires in the world for women, and is ideal for solo-female
@@ -82,16 +87,19 @@ function App() {
           So, let us take away the stress of vacation planning and book your
           consultation session today.{" "}
         </p>
-        <h2>Our Services</h2>
+        <h3 className=" headerh3 mt-5" id="services">
+          OUR SERVICES.
+        </h3>
         <Services />
-        <h2>Autumn Itinerary</h2>
+        <h3 className=" headerh3 mt-5">WHAT'S ON IN AUGUST.</h3>
         <Itinerary />
 
         <div className="Acomodation suggestion">
-          <h2>Accommodation.</h2>
+          <h3 className=" headerh3 mt-5">ACCOMMODATION.</h3>
           <Accommodationslider />
         </div>
-        <div className="updates">Prices hikes for JR pass New beach open</div>
+        <h3 className="headerh3 mt-5">EDITORIALS.</h3>
+        <Editorials />
       </div>
     </div>
   );

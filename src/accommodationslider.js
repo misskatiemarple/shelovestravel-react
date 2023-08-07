@@ -23,7 +23,7 @@ export default function Accommodationslider() {
   };
 
   return (
-    <div className="body">
+    <div className="body mt-3">
       <div className="wrapper">
         <div className="icon-left" onClick={slideLeft}>
           {ChevronLeft}
