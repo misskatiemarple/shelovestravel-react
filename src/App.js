@@ -26,8 +26,14 @@ function App() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#services">
+                <a class="nav-link" aria-current="page" href="#services">
                   Services
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#accommodation">
+                  Accommodation
                 </a>
               </li>
               <li class="nav-item">
@@ -36,12 +42,12 @@ function App() {
                   href="https://www.facebook.com/groups/shelovestravel/"
                   target="_blank"
                 >
-                  Women-Only Socials
+                  Meet-ups
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#AboutUs">
-                  About Us
+                <a class="nav-link" aria-current="page" href="#editorials">
+                  Editorials
                 </a>
               </li>
             </ul>
@@ -95,10 +101,14 @@ function App() {
         <Itinerary />
 
         <div className="Acomodation suggestion">
-          <h3 className=" headerh3 mt-5">ACCOMMODATION.</h3>
+          <h3 className=" headerh3 mt-5" id="accommodation">
+            ACCOMMODATION.
+          </h3>
           <Accommodationslider />
         </div>
-        <h3 className="headerh3 mt-5">EDITORIALS.</h3>
+        <h3 className="headerh3 mt-5" id="editorials">
+          EDITORIALS.
+        </h3>
         <Editorials />
       </div>
     </div>
