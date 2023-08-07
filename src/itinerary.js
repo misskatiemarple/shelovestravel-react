@@ -3,7 +3,7 @@ import "./itinerary.css";
 
 export default function Itinerary() {
   return (
-    <div className="itinerary-container">
+    <div className="itinerary-container mt-3">
       <img
         src="/itinerary/08.2023.jpg"
         alt="August 2023 itinerary"

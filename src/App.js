@@ -114,6 +114,7 @@ function App() {
           EDITORIALS.
         </h3>
         <Editorials />
+        <p>this section will be for instagram RSS feed</p>
       </div>
       <footer>
         <a href="mailto:misskatiemarple@gmail.com">misskatiemarple@gmail.com</a>
