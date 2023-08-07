@@ -9,6 +9,12 @@ export default function Itinerary() {
         alt="August 2023 itinerary"
         className="img-fluid itinerary-img"
       />
+      <a href="#" className="text-left">
+        Previous month
+      </a>
+      <a href="#" className="text-right">
+        Next month
+      </a>
       <p>
         For the latest event news, please join the private members{" "}
         <a

@@ -36,8 +36,9 @@ export default function Accommodationslider() {
             <h2>Citadines Hotel</h2>
             <span>Shinjuku, Tokyo</span>
             <ul className="review">
-              <li className="review">😁 Female night staff</li>
-              <li className="review">👎Location </li>
+              <li className="review">❤️ Female night staff</li>
+              <li className="review">❤️ Good privacy and secutiry</li>
+              <li className="review">🤔Distance from main station </li>
             </ul>
           </li>
           <li className="card">
@@ -47,10 +48,9 @@ export default function Accommodationslider() {
             <h2>{CheckCircle} Granvia Hotel Wakayama</h2>
             <span>Wakayama</span>
             <ul className="review">
-              <li className="review">😁 Next to station</li>
-              <li className="review">😁 Onsite restaurant</li>
-              <li className="review">😁 Bike hire</li>
-              <li className="review">👎 Distance to attractions</li>
+              <li className="review">❤️ Next to station</li>
+              <li className="review">❤️ Bike hire</li>
+              <li className="review">🤔 Distance to attractions</li>
             </ul>
           </li>
           <li className="card">
@@ -60,9 +60,9 @@ export default function Accommodationslider() {
             <h2>{CheckCircle} The Calendar</h2>
             <span>Otsu, Shiga</span>
             <ul className="review">
-              <li className="review">😁 Close to Lake Biwa</li>
-              <li className="review">😁 Gender split areas</li>
-              <li className="review">👎 Shared showers?</li>
+              <li className="review">❤️ Close to Lake Biwa</li>
+              <li className="review">❤️ Gender split areas</li>
+              <li className="review">🤔 Shared showers?</li>
             </ul>
           </li>
         </ul>

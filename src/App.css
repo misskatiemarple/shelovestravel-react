@@ -49,6 +49,9 @@ header {
   margin-top: 32px;
 }
 
+iframe {
+  border-radius: 12px;
+}
 footer {
   background-color: #f9f9f9;
 }

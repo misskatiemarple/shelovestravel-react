@@ -3,6 +3,7 @@ import Services from "./services";
 import Itinerary from "./itinerary";
 import Accommodationslider from "./accommodationslider";
 import Editorials from "./editorials";
+import Podcast from "./podcast";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
@@ -54,6 +55,12 @@ function App() {
                   Editorials
                 </a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#podcast">
+                  Podcast
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -74,12 +81,12 @@ function App() {
         <h3 className="headerh3">ABOUT US.</h3>
         <p className="mt-3">
           She Loves Travel offers travel guidance and consulting to women who
-          are planning their trip of a life time to Japan. Japan is one of the
-          safest countires in the world for women, and is ideal for solo-female
+          are planning their trip of a lifetime to Japan. Japan is one of the
+          safest countries in the world for women and is ideal for solo female
           travel.{" "}
         </p>
         <p>
-          Whether it be your first time or your hundreth, there is always more
+          Whether it be your first time or your hundredth, there is always more
           to discover. Our expert guidance will co-design your bespoke
           itinerary, saving you hours of research and stress.{" "}
         </p>
@@ -108,15 +115,41 @@ function App() {
           <h3 className=" headerh3 mt-5" id="accommodation">
             ACCOMMODATION.
           </h3>
+          <p className="mt-3 mb-3">
+            <strong>
+              Whether you're planning a lavish girls trip or a shoestring solo
+              adventure, our blue-tick verified recommendations will put your
+              worries and stress to rest. The verified tick means that the
+              property has been personally visited by the She Loves Travel team
+              and is fantastic.{" "}
+            </strong>
+          </p>
+          <p>
+            Don't understand our icons? Well, simply put, the ❤️ means that we
+            love the accommodation feature. The 🤔 face is something that you
+            may need to consider. These are often the distance to stations or
+            attractions, street lighting levels and non-gender-split shared
+            facilities.{" "}
+          </p>
           <Accommodationslider />
         </div>
         <h3 className="headerh3 mt-5" id="editorials">
           EDITORIALS.
         </h3>
         <Editorials />
-        <p>this section will be for instagram RSS feed</p>
+        <h3 className="headerh3 mt-5" id="podcast">
+          Podcast
+        </h3>
+        <p className="mt-3">
+          On this podcast, we chat with women traveling or based in Japan. We'll
+          have solopreneurs, local business owners and travelers pass through
+          our recording booth. Interested in sharing your own travel story? Get
+          in touch with us today.
+        </p>
+        <Podcast />
       </div>
-      <footer>
+      <footer className="text-center">
+        <p> THE FINAL CALL TO ACTION</p>
         <a href="mailto:misskatiemarple@gmail.com">misskatiemarple@gmail.com</a>
         <h2>Come on over and say hello</h2>
         {Facebookicon}
