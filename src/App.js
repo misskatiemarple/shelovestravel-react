@@ -3,8 +3,12 @@ import Services from "./services";
 import Itinerary from "./itinerary";
 import Accommodationslider from "./accommodationslider";
 import Editorials from "./editorials";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
+  const Facebookicon = <FontAwesomeIcon icon={faFacebook} />;
+  const Instagramicon = <FontAwesomeIcon icon={faInstagram} />;
   return (
     <div className="App">
       <nav class="navbar navbar-expand-lg">
@@ -111,6 +115,12 @@ function App() {
         </h3>
         <Editorials />
       </div>
+      <footer>
+        <a href="mailto:misskatiemarple@gmail.com">misskatiemarple@gmail.com</a>
+        <h2>Come on over and say hello</h2>
+        {Facebookicon}
+        {Instagramicon}
+      </footer>
     </div>
   );
 }
