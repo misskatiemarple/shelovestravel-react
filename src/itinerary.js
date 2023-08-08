@@ -1,6 +1,5 @@
 import React from "react";
 import "./itinerary.css";
-import PDFViewer from "./pdfviewer";
 
 export default function Itinerary() {
   return (
@@ -20,7 +19,7 @@ export default function Itinerary() {
           Facebook Group
         </a>
       </p>
-      <PDFView />
+      <p>pdf</p>
     </div>
   );
 }
