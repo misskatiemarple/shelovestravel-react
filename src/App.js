@@ -8,8 +8,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
-  const Facebookicon = <FontAwesomeIcon icon={faFacebook} />;
-  const Instagramicon = <FontAwesomeIcon icon={faInstagram} />;
+  const Facebookicon = <FontAwesomeIcon icon={faFacebook} className="fa-2x" />;
+  const Instagramicon = (
+    <FontAwesomeIcon icon={faInstagram} className="fa-2x" />
+  );
   return (
     <div className="App">
       <nav class="navbar navbar-expand-lg">
@@ -32,7 +34,7 @@ function App() {
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#services">
-                  Services
+                  What we do
                 </a>
               </li>
 
@@ -70,45 +72,51 @@ function App() {
         <h3 className="headerh3">.TRAVEL.</h3>
         <h1 className="headerh1">The Wonders of Japan</h1>
         <h4 className="headerh4">
-          Make your dream vacation a reality with <br />
-          expert travel consulting
+          Discover Japan, your way with expert travel consulting <br />
+          and women-only community
         </h4>
-        <button className="btn btn-primary header-button">
+        <button className="btn btn-primary header-button mt-5">
           Book a consultation
         </button>
       </header>
       <div className="page-container">
         <h3 className="headerh3">ABOUT US.</h3>
         <p className="mt-3">
-          She Loves Travel offers travel guidance and consulting to women who
-          are planning their trip of a lifetime to Japan. Japan is one of the
-          safest countries in the world for women and is ideal for solo female
-          travel.{" "}
+          She Loves Travel is your dedicated partner in crafting unforgettable
+          journeys for women planning their dream trip to Japan. Japan stands as
+          one of the safest countries in the world for women, making it an ideal
+          destination for solo female adventurers.
         </p>
         <p>
-          Whether it be your first time or your hundredth, there is always more
-          to discover. Our expert guidance will co-design your bespoke
-          itinerary, saving you hours of research and stress.{" "}
+          Whether you're embarking on your maiden voyage or adding to your list
+          of adventures, the world of Japan holds endless wonders waiting to be
+          explored. Our team of compassionate experts collaborate closely with
+          you to co-create a tailored itinerary, sparing you the daunting task
+          of hours of research and uncertainty.
         </p>
         <p>
-          From our research, the average tourist to Japan will spend xx months
-          planning their ideal trip. With our help, you'll have a tailored
-          itinerary within a time frame that suits you.
+          On average, individuals planning a trip to Japan invest several months
+          in preparation. With She Loves Travel, your bespoke itinerary will
+          materialize within a timeframe that matches your schedule and
+          aspirations.
         </p>
         <p>
-          She Loves Travel members host regular women-only events in Kansai and
-          Tokyo, where you can meet other members and enjoy the presence of
-          local Japanese women who are keen to share their culture with you.{" "}
+          Our heart-centered community comes alive through regular women-only
+          gatherings in both Kansai and Tokyo. These intimate events provide the
+          opportunity to connect with fellow adventurers and immerse yourself in
+          the warmth of local Japanese women eager to share their culture and
+          stories.
         </p>
         <p>
-          So, let us take away the stress of vacation planning and book your
-          consultation session today.{" "}
+          Let us alleviate the complexities of vacation planning and embark on
+          this transformative journey together. Secure your consultation session
+          today, and let your adventure begin.
         </p>
         <h3 className=" headerh3 mt-5" id="services">
-          OUR SERVICES.
+          WHAT WE DO.
         </h3>
         <Services />
-        <h3 className=" headerh3 mt-5">WHAT'S ON IN AUGUST.</h3>
+        <h3 className=" headerh3 mt-5">WHAT'S ON.</h3>
         <Itinerary />
 
         <div className="Acomodation suggestion">
@@ -117,11 +125,12 @@ function App() {
           </h3>
           <p className="mt-3 mb-3">
             <strong>
-              Whether you're planning a lavish girls trip or a shoestring solo
-              adventure, our blue-tick verified recommendations will put your
-              worries and stress to rest. The verified tick means that the
-              property has been personally visited by the She Loves Travel team
-              and is fantastic.{" "}
+              Whether you're envisioning a lavish girls' trip or embarking on a
+              shoestring solo adventure, our blue-tick verified recommendations
+              are designed to alleviate worries and ease your mind. The verified
+              tick indicates that our She Loves Travel team has personally
+              visited and approved the property – ensuring an exceptional
+              experience.
             </strong>
           </p>
           <p>
@@ -141,19 +150,45 @@ function App() {
           Podcast
         </h3>
         <p className="mt-3">
-          On this podcast, we chat with women traveling or based in Japan. We'll
-          have solopreneurs, local business owners and travelers pass through
-          our recording booth. Interested in sharing your own travel story? Get
-          in touch with us today.
+          Welcome to the She Loves Travel Podcast, a heartfelt addition to
+          capture the essence of our community. Here, we engage in genuine
+          conversations with remarkable women who are on a journey through Japan
+          or have embraced it as their home. We embraces a tapestry of voices,
+          from spirited solopreneurs and local artisans to passionate
+          globetrotters. If your soul is stirred to share own experiences of
+          Japan reach out to us today and become a cherished part of the story
+          we've weaving.
         </p>
         <Podcast />
       </div>
       <footer className="text-center">
-        <p> THE FINAL CALL TO ACTION</p>
-        <a href="mailto:misskatiemarple@gmail.com">misskatiemarple@gmail.com</a>
-        <h2>Come on over and say hello</h2>
-        {Facebookicon}
-        {Instagramicon}
+        <h2>"Join the Sisterhood of Explorers"</h2>
+        <h3 className="mb-3">Come on over and say hello</h3>
+        <span>
+          <a
+            href="https://www.facebook.com/groups/shelovestravel"
+            target="_blank"
+            className="text-black"
+          >
+            {Facebookicon}
+          </a>
+        </span>
+        <span>
+          <a
+            href="https://www.instagram.com/katie_marple/"
+            target="_blank"
+            className="text-black"
+          >
+            {Instagramicon}
+          </a>
+        </span>
+        <p className="mt-3">
+          Get in touch with our founder for questions, partnerships and podcast
+          info...
+        </p>
+        <a href="mailto:misskatiemarple@gmail.com" className="text-black">
+          misskatiemarple@gmail.com
+        </a>
       </footer>
     </div>
   );

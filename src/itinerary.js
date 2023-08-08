@@ -1,5 +1,6 @@
 import React from "react";
 import "./itinerary.css";
+import PDFViewer from "./pdfviewer";
 
 export default function Itinerary() {
   return (
@@ -9,12 +10,6 @@ export default function Itinerary() {
         alt="August 2023 itinerary"
         className="img-fluid itinerary-img"
       />
-      <a href="#" className="text-left">
-        Previous month
-      </a>
-      <a href="#" className="text-right">
-        Next month
-      </a>
       <p>
         For the latest event news, please join the private members{" "}
         <a
@@ -25,7 +20,7 @@ export default function Itinerary() {
           Facebook Group
         </a>
       </p>
-      <p>Download the PDF version of this document here</p>
+      <PDFView />
     </div>
   );
 }
