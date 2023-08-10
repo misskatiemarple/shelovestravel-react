@@ -36,12 +36,10 @@ export default function editorials() {
                   Guide (2023)
                 </h5>
                 <p className="card-text">
-                  In Japan for the summer of 2023? Don't leave home without
-                  reading our guide to what to expect, what to enjoy and even
-                  some fashion suggestions. We've having the hottest summer for
-                  150 years, temperature are soaring at 30 degrees and humidity
-                  is 80%. So, be prepared, and let us guide you through the
-                  ultimate summer in Japan.
+                  In Japan for the summer of 2023? Don't leave home without our
+                  guide on what to expect, what to enjoy and even some fashion
+                  suggestions. Japan is having the hottest summer in 150 years.
+                  So, be prepared, and enjoy your ultimate summer in Japan.
                 </p>
                 <a
                   href="https://medium.com/@misskatiemarple/exploring-japans-summer-wonders-a-solo-female-traveler-s-guide-2023-b4c255d6cb85"
