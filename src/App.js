@@ -143,26 +143,26 @@ function App() {
           <Accommodationslider />
         </div>
         <h3 className="headerh3 mt-5" id="editorials">
-          EDITORIALS.
+          LATEST EDITORIALS.
         </h3>
         <Editorials />
         <h3 className="headerh3 mt-5" id="podcast">
-          Podcast
+          PODCAST.
         </h3>
         <p className="mt-3">
           Welcome to the She Loves Travel Podcast, a heartfelt addition to
           capture the essence of our community. Here, we engage in genuine
           conversations with remarkable women who are on a journey through Japan
-          or have embraced it as their home. We embraces a tapestry of voices,
-          from spirited solopreneurs and local artisans to passionate
-          globetrotters. If your soul is stirred to share own experiences of
-          Japan reach out to us today and become a cherished part of the story
-          we've weaving.
+          or have embraced it as their home.{" "}
+        </p>
+        <p>
+          If your soul is stirred to share own experiences of Japan reach out to
+          us today and become a cherished part of the story we've weaving.
         </p>
         <Podcast />
       </div>
       <footer className="text-center">
-        <h2>"Join the Sisterhood of Explorers"</h2>
+        <h2 className="final-CTA">"Join the Sisterhood of Explorers"</h2>
         <h3 className="mb-3">Come on over and say hello</h3>
         <span>
           <a

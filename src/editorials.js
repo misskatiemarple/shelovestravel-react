@@ -51,6 +51,9 @@ export default function editorials() {
             </div>
           </div>
         </div>
+        <a href="https://medium.com/@misskatiemarple" target="_blank">
+          See all editorials{" "}
+        </a>
       </div>
     </div>
   );
