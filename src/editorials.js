@@ -9,6 +9,28 @@ export default function editorials() {
           <div className="col-sm-6">
             <div className="card">
               <div className="card-body">
+                <h5 class="card-title text-center">
+                  The Ultimate Girls’ Guide to the Yodogawa Fireworks Festival
+                  in Osaka
+                </h5>
+                <p className="card-text">
+                  Paint the town with vibrant lights and sizzling vibes at the
+                  Yodogawa Fireworks Festival in Osaka. It's THE summer soirée
+                  you won't want to miss next year – think fireworks, friends,
+                  and unforgettable memories. 🎇✨
+                </p>
+                <a
+                  href="https://medium.com/@misskatiemarple/the-ultimate-girls-guide-to-the-yodogawa-fireworks-festival-in-osaka-bdefab6433ef"
+                  class="btn btn-primary text-center"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6">
+            <div className="card">
+              <div className="card-body">
                 <h5 className="card-title text-center">
                   Yodogawa Fireworks Festival
                 </h5>
@@ -18,24 +40,6 @@ export default function editorials() {
                   recommendations for next year.
                 </p>
                 <a href="#" class="btn btn-primary text-center">
-                  Read more
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6">
-            <div className="card">
-              <div className="card-body">
-                <h5 class="card-title text-center">Must See Hydrangea Spots</h5>
-                <p className="card-text">
-                  Kansai's hydrangea blooms will leave you spellbound with their
-                  array of colors. So, let's embark on a floral adventure by
-                  visiting these top locations.
-                </p>
-                <a
-                  href="https://medium.com/@misskatiemarple/embrace-the-exquisite-hydrangeas-and-vibrant-festivities-of-kansai-this-june-a0707bc02996"
-                  class="btn btn-primary text-center"
-                >
                   Read more
                 </a>
               </div>
