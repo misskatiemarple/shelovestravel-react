@@ -32,14 +32,21 @@ export default function editorials() {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title text-center">
-                  Yodogawa Fireworks Festival
+                  Exploring Japan’s Summer Wonders: A Solo Female Traveler’s
+                  Guide (2023)
                 </h5>
                 <p className="card-text">
-                  In 2023 we welcomed back the fabulous Yodogawa Summer
-                  Fireworks Festival. With over 30,000 fireworks, here's our
-                  recommendations for next year.
+                  In Japan for the summer of 2023? Don't leave home without
+                  reading our guide to what to expect, what to enjoy and even
+                  some fashion suggestions. We've having the hottest summer for
+                  150 years, temperature are soaring at 30 degrees and humidity
+                  is 80%. So, be prepared, and let us guide you through the
+                  ultimate summer in Japan.
                 </p>
-                <a href="#" class="btn btn-primary text-center">
+                <a
+                  href="https://medium.com/@misskatiemarple/exploring-japans-summer-wonders-a-solo-female-traveler-s-guide-2023-b4c255d6cb85"
+                  class="btn btn-primary text-center"
+                >
                   Read more
                 </a>
               </div>
