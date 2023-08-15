@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#" rel="noreferrer">
             She Loves Travel
           </a>
           <button
@@ -33,13 +33,23 @@ function App() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#services">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#services"
+                  rel="noreferrer"
+                >
                   What we do
                 </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#accommodation">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#accommodation"
+                  rel="noreferrer"
+                >
                   Accommodation
                 </a>
               </li>
@@ -48,18 +58,29 @@ function App() {
                   class="nav-link"
                   href="https://www.facebook.com/groups/shelovestravel/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Meet-ups
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#editorials">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#editorials"
+                  rel="noreferrer"
+                >
                   Editorials
                 </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#podcast">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#podcast"
+                  rel="noreferrer"
+                >
                   Podcast
                 </a>
               </li>
@@ -169,6 +190,7 @@ function App() {
             href="https://www.facebook.com/groups/shelovestravel"
             target="_blank"
             className="text-black"
+            rel="noreferrer"
           >
             {Facebookicon}
           </a>
@@ -178,6 +200,7 @@ function App() {
             href="https://www.instagram.com/katie_marple/"
             target="_blank"
             className="text-black"
+            rel="noreferrer"
           >
             {Instagramicon}
           </a>
@@ -186,7 +209,11 @@ function App() {
           Get in touch with our founder for questions, partnerships and podcast
           info...
         </p>
-        <a href="mailto:misskatiemarple@gmail.com" className="text-black">
+        <a
+          href="mailto:misskatiemarple@gmail.com"
+          className="text-black"
+          rel="noreferrer"
+        >
           misskatiemarple@gmail.com
         </a>
       </footer>

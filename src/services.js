@@ -14,7 +14,10 @@ export default function Services() {
             through Japan is truly one-of-a-kind.
           </p>
           <button className="btn btn-primary mb-2">
-            <a href="#"> Details</a>
+            <a href="#" rel="noreferrer">
+              {" "}
+              Details
+            </a>
           </button>
         </div>
         <div className="col-md border">
@@ -27,7 +30,10 @@ export default function Services() {
           </p>
           <button className="btn btn-primary mb-2">
             {" "}
-            <a href="#accommodation"> Details</a>
+            <a href="#accommodation" rel="noreferrer">
+              {" "}
+              Details
+            </a>
           </button>
         </div>
       </div>
@@ -45,6 +51,7 @@ export default function Services() {
             <a
               href="https://www.facebook.com/groups/shelovestravel"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               Details

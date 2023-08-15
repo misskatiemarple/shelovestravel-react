@@ -22,6 +22,7 @@ export default function editorials() {
                 <a
                   href="https://medium.com/@misskatiemarple/the-ultimate-girls-guide-to-the-yodogawa-fireworks-festival-in-osaka-bdefab6433ef"
                   class="btn btn-primary text-center"
+                  rel="noreferrer"
                 >
                   Read more
                 </a>
@@ -44,6 +45,7 @@ export default function editorials() {
                 <a
                   href="https://medium.com/@misskatiemarple/exploring-japans-summer-wonders-a-solo-female-traveler-s-guide-2023-b4c255d6cb85"
                   class="btn btn-primary text-center"
+                  rel="noreferrer"
                 >
                   Read more
                 </a>
@@ -51,7 +53,11 @@ export default function editorials() {
             </div>
           </div>
         </div>
-        <a href="https://medium.com/@misskatiemarple" target="_blank">
+        <a
+          href="https://medium.com/@misskatiemarple"
+          target="_blank"
+          rel="noreferrer"
+        >
           See all editorials{" "}
         </a>
       </div>
