@@ -12,6 +12,7 @@ export default function Podcast() {
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
+        title="She Loves Travel Podcast"
       ></iframe>
     </div>
   );
