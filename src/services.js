@@ -13,7 +13,9 @@ export default function Services() {
             unveils a tapestry of unique experiences, ensuring your adventure
             through Japan is truly one-of-a-kind.
           </p>
-          <button className="btn btn-primary mb-2">Details</button>
+          <button className="btn btn-primary mb-2">
+            <a href="#"> Details</a>
+          </button>
         </div>
         <div className="col-md border">
           <h2 className="text-center">Accommodation</h2>
@@ -23,7 +25,10 @@ export default function Services() {
             featuring women-centric amenities and unbeatable accessibility. You
             can still search and book securely through your preferred site.
           </p>
-          <button className="btn btn-primary mb-2">Details</button>
+          <button className="btn btn-primary mb-2">
+            {" "}
+            <a href="#accommodation"> Details</a>
+          </button>
         </div>
       </div>
 
@@ -35,7 +40,16 @@ export default function Services() {
             where stories intertwine, friendships bloom, and the essence of
             Japan's hidden gems comes to life through authentic exploration.
           </p>
-          <button className="btn btn-primary mb-2">Details</button>
+          <button className="btn btn-primary mb-2">
+            {" "}
+            <a
+              href="https://www.facebook.com/groups/shelovestravel"
+              target="_blank"
+            >
+              {" "}
+              Details
+            </a>
+          </button>
         </div>
         <div className="col-md border">
           <h2 className="text-center">Consultation</h2>
