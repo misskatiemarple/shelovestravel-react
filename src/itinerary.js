@@ -15,6 +15,7 @@ export default function Itinerary() {
           href="https://www.facebook.com/groups/shelovestravel"
           target="_blank"
           className="event-facebook-link"
+          rel="noreferrer"
         >
           Facebook Group
         </a>
